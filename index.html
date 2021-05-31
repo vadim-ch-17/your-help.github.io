@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<title>Your Help</title>
+</head>
+<body>
+	<header class="header d-flex" id="header">	
+   		<div class="header__body container d-flex justify-content-between">
+		   		<div class="logo">
+					<a href="#">
+				   		<img src="src/img/Logo.png" alt="Logo">
+				   	</a>
+				</div>
+		   		<div class="header__burger">
+		   			<span></span>
+		   		</div>
+		   		<div class="header__menu">
+		   			<ul class="header__list mb-0 text-center">
+		   				<li>
+		   					<a href="#campaigns" class="header__link">Campaigns</a>
+		   				</li>
+		   				<li>
+		   					<a href="#communities" class="header__link">Communities</a>
+		   				</li>
+		   				<li class="dropdown">
+		   					<a href="#about-us" class="header__link dropdown">About us <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg></a>
+							<div class="dropdown_content">
+								<ul class="dropdown-content dropdown-content__dropdown">
+		   							<li><a href="#" class="dropdown__link">How it works? </a></li>
+		   							<li><a href="#" class="dropdown__link">FAQs</a></li>
+		   							<li><a href="#" class="dropdown__link">Terms</a></li>
+		   							<li><a href="#contact-us" class="dropdown__link">Contact</a></li>
+		   							<li><a href="#reviews" class="dropdown__link">Reviews</a></li>
+		   						</ul>
+							</div>
+						</li>
+		   				<li class="li-button">
+		   					<button class="btn btn-list">Sign in</button>
+		   				</li>
+		   				<li class="li-button">
+		   					<button class="btn btn-list active-btn">Sign up</button>
+		   				</li>
+		   				<li class="li-form">
+		   					<form class="form-inline">
+								 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search">
+								<button class="btn btn-search btn-outline-success active-btn" type="submit"><i class="fa fa-search"></i></button>
+							</form>
+		   				</li>
+		   			</ul>
+		   		</div>
+		   		<div class="header__buttons">
+		   			<button class="btn btn-search btn-outline-success active-btn" type="submit"><i class="fa fa-search"></i></button>
+		   			<button class="btn">Sign in</button>
+		   			<button class="btn active-btn">Sign up</button>
+		   		</div>
+		</div>
+	</header>
+	<main class="main" id="main">
+		<section class="banner" id="banner">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active ">
+			    	<div class="carousel-caption d-none d-md-block">
+				        <h1>Charitable foundation «Your Help»</h1>
+			    		<p>People around the world are raising money for what they are passionate about.</p>
+			    		<button class="btn active-btn">Create a campaign</button>
+				     </div>
+			      <img src="src/img/banner.png" class="d-block w-100" alt="img-1">
+			 	</div>
+			 	<div class="carousel-item">
+			      <img src="src/img/banner.png" class="d-block w-100" alt="img-1">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="src/img/banner.png" class="d-block w-100" alt="img-1">
+			    </div>
+			</div>
+		</section>
+		<section class="banner_icon" id="banner_icon">
+			<div class="container my-5">
+				<div class="row d-flex justify-content-between">
+					<div class="text-center">
+						<a href="#" class="banner_icon__link">
+							<img src="src/img/medical.png" class="img-fluid">
+							<h5>Medical</h5>
+						</a>
+					</div>
+					<div class="text-center">
+						<a href="#" class="banner_icon__link" class="img-fluid">
+							<img src="src/img/sports.png">
+							<h5>Sports</h5>
+						</a>
+					</div>
+					<div class="text-center">
+						<a href="#" class="banner_icon__link" class="img-fluid">
+							<img src="src/img/animals.png">
+							<h5>Animals</h5>
+						</a>
+					</div>
+					<div class="text-center">
+						<a href="#" class="banner_icon__link" class="img-fluid">
+							<img src="src/img/business.png">
+							<h5>Business</h5>
+						</a>
+					</div>
+					<div class=" text-center">
+						<a href="#" class="banner_icon__link" class="img-fluid">
+							<img src="src/img/community.png">
+							<h5>Community</h5>
+						</a>
+					</div>
+					<div class="text-center">
+						<a href="#" class="banner_icon__link" class="img-fluid">
+							<img src="src/img/family.png">
+							<h5>Family</h5>
+						</a>
+					</div>
+					<div class="text-center">
+						<a href="#" class="banner_icon__link" class="img-fluid">
+							<img src="src/img/other-categories.png">
+							<h5>other categories</h5>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="campaigns" id="campaigns">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<h2>Campaigns</h2>
+						<p>Our project is more than a collection of charitable aid, it is an association for a common goal.</p>
+					</div>
+					<div class="col-12">
+						<h4>Popular campaigns</h4>
+					</div>
+					
+					<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-2">
+						<div class="card" >
+							<div class="card__head d-flex align-items-center">
+								<div class="card__circle active-card"></div>
+								<p class="m-0">Social</p>
+							</div>
+  							<img src="src/img/Campaigns/animals.png" class="card-img-top" alt="animals">
+						 	<div class="card__body d-flex align-items-center mt-1">
+								<div class="card__circle social-card"></div>
+								<p class="m-0">Animals</p>
+							</div>
+							<h6>Construction of a shelter for dogs</h6>
+							<div class="progressbar d-flex justify-content-between">
+								<span class="prise-raised">$1,000.00 Raised</span>
+								<span class="percent">50%</span>
+							</div>
+							<div class="progress">
+ 								 <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="card__price d-flex justify-content-end my-2">
+								<span class="percent">Goal</span>
+								<span class="prise">$2,000.00</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-2">
+						<div class="card" >
+							<div class="card__head d-flex align-items-center">
+								<div class="card__circle active-card"></div>
+								<p class="m-0">Education</p>
+							</div>
+  							<img src="src/img/Campaigns/family.png" class="card-img-top" alt="animals">
+						 	<div class="card__body d-flex align-items-center mt-1">
+								<div class="card__circle family-card"></div>
+								<p class="m-0">Family</p>
+							</div>
+							<h6>Help to save the camp</h6>
+							<div class="progressbar d-flex justify-content-between">
+								<span class="prise-raised">$50.00 Raised</span>
+								<span class="percent">2%</span>
+							</div>
+							<div class="progress">
+ 								 <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="card__price d-flex justify-content-end my-2">
+								<span class="percent">Goal</span>
+								<span class="prise">$3,000.00</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-2">
+						<div class="card" >
+							<div class="card__head d-flex align-items-center">
+								<div class="card__circle active-card"></div>
+								<p class="m-0">Social</p>
+							</div>
+  							<img src="src/img/Campaigns/community.png" class="card-img-top" alt="animals">
+						 	<div class="card__body d-flex align-items-center mt-1">
+								<div class="card__circle community-card"></div>
+								<p class="m-0">Community</p>
+							</div>
+							<h6>Port construction</h6>
+							<div class="progressbar d-flex justify-content-between">
+								<span class="prise-raised">$1,000.00 Raised</span>
+								<span class="percent">50%</span>
+							</div>
+							<div class="progress">
+ 								 <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="card__price d-flex justify-content-end my-2">
+								<span class="percent">Goal</span>
+								<span class="prise">$2,000.00</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-2">
+						<div class="card" >
+							<div class="card__head d-flex align-items-center">
+								<div class="card__circle active-card"></div>
+								<p class="m-0">Social</p>
+							</div>
+  							<img src="src/img/Campaigns/medical.png" class="card-img-top" alt="animals">
+						 	<div class="card__body d-flex align-items-center mt-1">
+								<div class="card__circle medical-card"></div>
+								<p class="m-0">Medical</p>
+							</div>
+							<h6>Fundraising for treatment</h6>
+							<div class="progressbar d-flex justify-content-between">
+								<span class="prise-raised">$50.00 Raised</span>
+								<span class="percent">2%</span>
+							</div>
+							<div class="progress">
+ 								 <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="card__price d-flex justify-content-end my-2">
+								<span class="percent">Goal</span>
+								<span class="prise">$3,000.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="everything" id="everything">
+			<div class="container">
+				<div class="row ">
+					<div class="col-12 text-center mb-5">
+						<h2>We have everything you need</h2>
+					</div>
+					
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 everything__card">
+						<div class="everything__head pl-5">
+							<h4>Worldwide leader</h4>
+						</div>
+						<div class="everything__content pl-5 pt-1">
+							<p>Whole world trusts us. We are reliable fundraising platform.</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 everything__card">
+						<div class="everything__head pl-5">
+							<h4>Simple setup</h4>
+						</div>
+						<div class="everything__content pl-5 pt-1">
+							<p>You can personalize and sharein just a few minutes.</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 everything__card">
+						<div class="everything__head pl-5">
+							<h4>24/7 expert advice</h4>
+						</div>
+						<div class="everything__content pl-5 pt-1">
+							<p>Our best-in-class customer happiness agents will answer your questions, day or night.</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 everything__card">
+						<div class="everything__head pl-5">
+							<h4>Mobile app</h4>
+						</div>
+						<div class="everything__content pl-5 pt-1">
+							<p>Together  makes it simple to launch and manage your campaign on the go.</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 everything__card">
+						<div class="everything__head pl-5">
+							<h4>Social reach</h4>
+						</div>
+						<div class="everything__content pl-5 pt-1">
+							<p>Harness the power of social media to spread your story and get more support.</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 everything__card">
+						<div class="everything__head pl-5">
+							<h4>Fast and secure</h4>
+						</div>
+						<div class="everything__content pl-5 pt-1">
+							<p>Most organizers can withdraw funds immediately and our team works around the clock to protect against fraud.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about-us" id="about-us">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center mb-5">
+						<h2>About us</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-2 text-center">
+						<img src="src/img/about.png" class="img-fluid">
+					</div>
+					<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-2 d-flex align-items-center position-relative">
+						<p class="pl-3">The website connects community organizations to their supporters who can make donations using debit or credit card.
+						</p>
+						<div class="about-us__circle1 position-absolute"></div>
+						<div class="about-us__circle2 position-absolute"></div>
+						<div class="about-us__circle3 position-absolute"></div>
+					</div>
+				</div>
+				<div class="row my-4">
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-2">
+
+						<h4 class="text-center"> «Your Help» helps registered community organizations</h4>
+						<div class="about-us__list">
+							<ol class="pills">
+								<li>Track donations received</li>
+								<li>Reward/recognize donors</li>
+								<li>Transparency and accountability</li>
+								<li>Annual reporting</li>
+								<li>Global platform</li>
+							</ol>
+						</div>
+						
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-2">
+						<h4 class="text-center"> «Your Help» helps supporters</h4>
+						<div class="about-us__list my-2">
+							<ol class="pills">
+								<li>Make cashless donations</li>
+								<li>Track your donations</li>
+								<li>Stay connected</li>
+								<li>Collaborate</li>
+							</ol>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="reviews" id="reviews">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center mb-5">
+						<h2>Reviews</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div id="carouselExampleCaptions" class="carousel slide px-2" data-ride="carousel">
+				  	<ol class="carousel-indicators">
+				   		<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				    	<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				    	<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				  	</ol>
+				  	<div class="carousel-inner">
+				    	<div class="carousel-item active">
+				      	<div class="row">
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="reviews__card d-flex">
+									<div class="position-relative reviews__img ">
+															<img src="src/img/reviews/monica-1.png" class="" alt="monica">
+															<div class="reviews__card-circle-1 position-relative "><p>5+</p></div>
+									</div>
+									<div class="reviews__content position-relative">
+															<div class="reviews__card-shadow position-absolute">
+																<img src="src/img/reviews/shadow.png" class="">
+															</div>
+															<div class="reviews__text p-4">
+																<div>
+																	<p class="reviews__content-name">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+																			<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+																		</svg>
+																		Monica S.
+																	</p>
+																	<p>
+																		“This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs, and your customer service was so prompt and helpful.”
+																	</p>
+																</div>
+															</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="reviews__card d-flex">
+														<div class="position-relative reviews__img ">
+															<img src="src/img/reviews/monica-2.png" class="" alt="monica">
+															<div class="reviews__card-circle-2 position-relative "><p>5+</p></div>
+														</div>
+														<div class="reviews__content position-relative">
+															<div class="reviews__card-shadow position-absolute">
+																<img src="src/img/reviews/shadow.png" class="">
+															</div>
+															<div class="reviews__text p-4">
+																<div>
+																	<p class="reviews__content-name">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+																			<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+																		</svg>
+																		Monica S.
+																	</p>
+																	<p>
+																		“This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs, and your customer service was so prompt and helpful.”
+																	</p>
+																</div>
+															</div>
+														</div>
+								</div>
+							</div>
+						</div>
+				    	</div>
+				    	<div class="carousel-item">
+				      	<div class="row">
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="reviews__card d-flex">
+									<div class="position-relative reviews__img ">
+															<img src="src/img/reviews/monica-1.png" class="" alt="monica">
+															<div class="reviews__card-circle-1 position-relative "><p>5+</p></div>
+									</div>
+									<div class="reviews__content position-relative">
+															<div class="reviews__card-shadow position-absolute">
+																<img src="src/img/reviews/shadow.png" class="">
+															</div>
+															<div class="reviews__text p-4">
+																<div>
+																	<p class="reviews__content-name">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+																			<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+																		</svg>
+																		Monica S.
+																	</p>
+																	<p>
+																		“This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs, and your customer service was so prompt and helpful.”
+																	</p>
+																</div>
+															</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="reviews__card d-flex">
+														<div class="position-relative reviews__img ">
+															<img src="src/img/reviews/monica-2.png" class="" alt="monica">
+															<div class="reviews__card-circle-2 position-relative "><p>5+</p></div>
+														</div>
+														<div class="reviews__content position-relative">
+															<div class="reviews__card-shadow position-absolute">
+																<img src="src/img/reviews/shadow.png" class="">
+															</div>
+															<div class="reviews__text p-4">
+																<div>
+																	<p class="reviews__content-name">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+																			<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+																		</svg>
+																		Monica S.
+																	</p>
+																	<p>
+																		“This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs, and your customer service was so prompt and helpful.”
+																	</p>
+																</div>
+															</div>
+														</div>
+								</div>
+							</div>
+						</div>
+				    	</div>
+				    	<div class="carousel-item">
+				      	<div class="row">
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="reviews__card d-flex">
+									<div class="position-relative reviews__img ">
+										<img src="src/img/reviews/monica-1.png" class="" alt="monica">
+										<div class="reviews__card-circle-1 position-relative "><p>5+</p></div>
+									</div>
+								<div class="reviews__content position-relative">
+									<div class="reviews__card-shadow position-absolute">
+										<img src="src/img/reviews/shadow.png" class="">
+									</div>
+									<div class="reviews__text p-4">
+																<div>
+																	<p class="reviews__content-name">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+																			<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+																		</svg>
+																		Monica S.
+																	</p>
+																	<p>
+																		“This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs, and your customer service was so prompt and helpful.”
+																	</p>
+																</div>
+									</div>
+								</div>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="reviews__card d-flex">
+														<div class="position-relative reviews__img ">
+															<img src="src/img/reviews/monica-2.png" class="" alt="monica">
+															<div class="reviews__card-circle-2 position-relative "><p>5+</p></div>
+														</div>
+														<div class="reviews__content position-relative">
+															<div class="reviews__card-shadow position-absolute">
+																<img src="src/img/reviews/shadow.png" class="">
+															</div>
+															<div class="reviews__text p-4">
+																<div>
+																	<p class="reviews__content-name">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+																			<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+																		</svg>
+																		Monica S.
+																	</p>
+																	<p>
+																		“This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs, and your customer service was so prompt and helpful.”
+																	</p>
+																</div>
+															</div>
+														</div>
+								</div>
+							</div>
+						</div>
+				    	</div>
+				  	</div>
+				  	<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+				  	  	<span class="carousel-control carousel-control-prev" aria-hidden="true">
+				   		 	<img src="src/img/chevron-left.png">
+						</span>
+				    	<span class="sr-only">Предыдущий</span>
+				  	</a>
+				  	<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+				    	<span class="carousel-control carousel-control-next" aria-hidden="true">
+				    		<img src="src/img/chevron-right.png">
+				    	</span>
+				    	<span class="sr-only">Следующий</span>
+				  	</a>
+				</div>
+			</div>			
+		</section>
+		<section class="contact-us mt-5" id="contact-us">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<h2>Contact Us</h2>
+						<h4>Just write us a message!</h4>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12  position-relative pr-0">
+						<div class="contact-us__img-ellipse-big position-absolute">
+							<img src="src/img/ellipse-contact-info.png">
+						</div>
+						<div class="contact-us__img-ellipse-middle position-absolute"></div>
+						<div class="contact-us__img-ellipse-smol position-absolute"></div>
+						<div class="contact-us__content">
+							<h4>Contact information</h4>
+							<p>Fill in the form and our team will get back to you within 24 hours.</p>
+							<div class="contact-us__address">
+								<div class="row">
+									<div class="col-2">
+										<div class="contact-us__content p-0">
+											<img src="src/img/contact/Mail.png">
+										</div>
+									</div>
+									<div class="col-10">
+										<p>charitablefoundation@gmail.com</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-2">
+										<div class="contact-us__content p-0">
+											<img src="src/img/contact/Geo.png">
+										</div>
+									</div>
+									<div class="col-10">
+										<p>«Your Help»  st. Piraeus 2C 04-49 Warsaw, Poland</p>
+									</div>
+								</div>
+							</div>
+							<div class="contact-us__address">
+								<div class="contact-us__icon position-relative d-flex justify-content-center">
+									<div class="row">
+										<div class="col-4">
+											<a href="#"><img src="src/img/contact/LinkedIN.png"> </a>
+										</div>
+										<div class="col-4">
+											<a href="#"><img src="src/img/contact/Facebook.png"> </a>
+										</div>
+										<div class="col-4">
+											<a href="#"><img src="src/img/contact/VK_white.png"> </a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 px-4  position-relative">
+						<div class="contact-us__circle1 position-absolute"></div>
+						<div class="contact-us__circle2 position-absolute"></div>
+						<div class="contact-us__circle3 position-absolute"></div>
+						<div class="contact-us__form">
+							<form>
+								<div class="form-group">
+								    <label for="inputFullName">Full name</label>
+								    <input type="text" class="form-control" id="inputFullName" placeholder="Mira">
+								  </div>
+							  <div class="form-group">
+							    <label for="exampleFormControlInput1">Email</label>
+							    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+							  </div>
+							  
+							  
+							  <div class="form-group">
+							    <label for="exampleFormControlYourMessage">Your message</label>
+							    <textarea class="form-control" id="exampleFormControlYourMessage" rows="3"></textarea>
+							  </div>
+							  	<button type="submit" class="btn active-btn">Send message</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer my-5" id="footer">
+		<div class="container footer__container  py-5">
+			<div class="row">
+				<div class="col-3">
+					<img src="src/img/Logo.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-9">
+					<div class="row">
+						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<ul class="footer__link">
+								<li>
+									<a href="#">FAQs</a>
+								</li>
+								<li>
+									<a href="#">Privacy</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<ul class="footer__link">
+								<li>
+									<a href="#">About us</a>
+								</li>
+								<li>
+									<a href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<ul class="footer__link">
+								<li>
+									<a href="#">Terms</a>
+								</li>
+								<li>
+									<a href="#">Refund policy</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<ul class="footer__link">
+								<li>
+									<a href="#">Charitable foundation</a>
+								</li>
+								<li>
+									<a href="#">How it works</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container my-3">
+			<div class="row">
+				<div class="col-12">
+					<p>© 2020. «Your Help». Charitable foundation.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="src/js/myjs.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+
+</html>
